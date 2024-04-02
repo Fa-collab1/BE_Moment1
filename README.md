@@ -5,6 +5,7 @@ En webbapplikation för hantering av kurser med SQLite-databasintegration.
 ## Beskrivning
 
 Denna webbapplikation bygger på Express.js och SQLite för att hantera kurser. Användare kan lägga till, redigera och ta bort kurser via gränssnittet. Kursinformation lagras i en SQLite-databas och visas på olika sidor beroende på användarinteraktion.
+Lade även till en extrasida för mina avklarade och pågående kurser.
 
 ## Installation
 

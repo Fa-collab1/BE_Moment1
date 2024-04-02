@@ -21,7 +21,7 @@ Lade även till en extrasida för mina avklarade och pågående kurser.
 
 ## Routes
 
-- **GET /courses**: Hämtar och visar en lista över alla kurser.
+- **GET /courses**: Hämtar och visar en lista över alla editbara kurser.
 - **GET /about**: Visar information om applikationen.
 - **GET /courses/add**: Renderar sidan för att lägga till en ny kurs.
 - **POST /courses/add**: Hanterar tillägg av en ny kurs till databasen.
@@ -29,6 +29,7 @@ Lade även till en extrasida för mina avklarade och pågående kurser.
 - **POST /courses/update/:id**: Uppdaterar en befintlig kurs i databasen baserat på ID.
 - **POST /courses/delete/:id**: Tar bort en kurs från databasen baserat på ID.
 - **GET /** skickar vidare till **/courses**: hade en indexsida först, men jag tog bort den, minst krångel att lösa det på detta sätt.
+- **GET /mycourses**: Hämtar och visar en lista över alla mina avklarade samt pågående kurser.
 
 ## Licens
 
